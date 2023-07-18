@@ -1,0 +1,124 @@
+.project-item {
+    position: relative;
+    width: 100%;
+    height: 30vw;
+}
+
+.project-item img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.project-info {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    display: none;
+}
+
+.project-description {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 300;
+    display: none;
+}
+
+.project-info:hover {
+    background-color: #333333CC;
+}
+
+.project-info:hover .project-title,
+.project-info:hover .project-description {
+    display: block;
+}
+
+@media (max-width: 1366px) {
+    .project-description {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .project-title {
+        font-size: 1.6rem;
+    }
+
+    .project-description {
+        font-size: .9rem;
+        line-height: 1.6rem;
+    }
+    
+    .project-item {
+        height: 40vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .project-description {
+        line-height: 1.2rem;
+    }
+
+    .project-info {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .project-item {
+        height: 80vw;
+    }
+
+    .project-title {
+        font-size: 2rem;
+    }
+    
+    .project-description {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .project-title {
+        font-size: 1.6rem;
+    }
+    
+    .project-description {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .project-title {
+        font-size: 1.2rem;
+    }
+    
+    .project-description {
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-title {
+        font-size: 1rem;
+    }
+    
+    .project-description {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+}

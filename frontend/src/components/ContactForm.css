@@ -1,0 +1,87 @@
+.contact-section {
+    background-color: #33333380;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contact-heading {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contact-subheading {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-input {
+    margin-top: 2rem;
+}
+
+.contact-button {
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1366px) {
+    .contact-section {
+        width: 50vw;
+        margin-left: 25vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-section {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+}
+
+@media (max-width: 812px) {
+    .contact-section {
+        width: 80vw;
+        margin-left: 10vw;
+        padding: 1rem;
+    }
+
+    .contact-heading {
+        font-size: 1.6rem;
+    }
+    
+    .contact-subheading {
+        font-size: 2.4rem;
+    }
+
+    .contact-input {
+        margin-top: 1rem;
+    }
+    
+    .contact-button {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-section {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .contact-heading {
+        font-size: 1.2rem;
+    }
+    
+    .contact-subheading {
+        font-size: 1.8rem;
+    }
+}

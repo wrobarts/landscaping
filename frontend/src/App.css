@@ -1,0 +1,19 @@
+.text-title {
+    color: var(--text-title-main);
+}
+
+.text-title-secondary {
+    color: var(--text-title-secondary);
+}
+
+.text-title-accent {
+    color: var(--text-title-accent);
+}
+
+.text-main {
+    color: var(--text-main);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}

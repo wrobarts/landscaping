@@ -1,0 +1,257 @@
+.process-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    min-height: 44rem;
+    background-color: #000000CC;
+}
+
+.process-header {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 16rem;
+}
+
+.process-header-title {
+    color: var(--text-title-accent);
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.process-header-subtitle {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.process-section {
+    position: relative;
+}
+
+.custom-shape-divider-top-1688146915 {
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688146915 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 16rem;
+}
+
+.custom-shape-divider-top-1688146915 .shape-fill {
+    fill: #F6E9D1;
+}
+
+.process-background-1 {
+    position: absolute;
+    background-color: #F6E9D1;
+    height: 50rem;
+    width: 100%;
+    top: 28rem;
+    left: 0;
+}
+
+.custom-shape-divider-top-1688147400 {
+    position: absolute;
+    top: 58rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688147400 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 16rem;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1688147400 .shape-fill {
+    fill: #C5ECB9;
+}
+
+.process-background-2 {
+    position: absolute;
+    background-color: #C5ECB9;
+    height: 80rem;
+    width: 100%;
+    top: 74rem;
+    left: 0;
+}
+
+.process-content {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.process-content-item {
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.process-item-number {
+    font-size: 20rem;
+    margin: 0;
+}
+
+.process-item-container {
+    background-color: #333333CC;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+.process-item-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.process-item-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.process-contact-container {
+    background-color: #C5ECB9;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 1366px) {
+    .process-header {
+        width: 60vw;
+        margin-left: 20vw;
+        margin-top: 12rem;
+    }
+
+    .process-content-item {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .process-item-container {
+        width: 60vw;
+    }
+
+    .process-item-text {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .custom-shape-divider-top-1688146915 svg,
+    .custom-shape-divider-top-1688147400 svg {
+        height: 12rem;
+    }
+
+    .process-background-1 {
+        top: 24rem;
+    }
+    
+    .process-background-2 {
+        top: 70rem;
+    }
+
+    .process-content-item {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .process-item-container {
+        width: 60vw;
+    }
+
+    .process-item-number {
+        font-size: 16rem;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .process-header {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .process-header-title {
+        font-size: 1.6rem;
+    }
+    
+    .process-header-subtitle {
+        font-size: 2.4rem;
+    }
+
+    .process-content-item {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .process-item-container {
+        width: 70vw;
+    }
+
+    .process-item-number {
+        font-size: 12rem;
+    }
+
+    .process-item-text {
+        font-size: .9rem;
+        line-height: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .process-image-overlay {
+        height: 36rem;
+        min-height: 36rem;
+    }
+
+    .process-header {
+        margin-top: 10rem;
+    }
+    
+    .process-header-subtitle {
+        margin-top: 4rem;
+    }
+
+    .process-item-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .process-header-subtitle {
+        font-size: 2rem;
+    }
+
+    .process-background-2 {
+        height: 100rem;
+    }
+
+    .process-item-title {
+        font-size: 1.2rem;
+    }
+
+    .process-item-number {
+        font-size: 4rem;
+    }
+}

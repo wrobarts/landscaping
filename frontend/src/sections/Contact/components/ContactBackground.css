@@ -1,0 +1,44 @@
+.contact-background {
+    background-image: url('../../../images/landscape_background_orange.jpeg');
+    background-position: -10vw 0;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 120vw;
+    overflow: hidden;
+}
+
+@media (max-width: 1366px) {
+    .contact-background {
+        background-position: -40vw 0;
+        background-size: 180vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-background {
+        background-position: -60vw 0;
+        background-size: 220vw;
+    }
+}
+
+@media (max-width: 812px) {
+    .contact-background {
+        background-position: -80vw 0;
+        background-size: 260vw;
+    }
+}
+
+@media (max-width: 560px) {
+    .contact-background {
+        background-position: -100vw 0;
+        background-size: 300vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-background {
+        background-position: -200vw 0;
+        background-size: 500vw;
+    }
+}

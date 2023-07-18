@@ -1,0 +1,21 @@
+.thank-you {
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+
+.thank-you-content {
+    color: var(--text-secondary);
+}
+
+.thank-you-content h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.thank-you-content p {
+    font-size: 1.2rem;
+}
+
+.thank-you-button {
+    margin-top: 1rem;
+}

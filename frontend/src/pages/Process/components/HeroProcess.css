@@ -1,0 +1,46 @@
+.hero-image-process {
+    background-image: url('../../../images/landscape_process.jpeg');
+    background-position: -10vw -20vw;
+    width: 100%;
+    height: 80vh;
+    min-height: 44rem;
+    background-repeat: no-repeat;
+    background-size: 120vw;
+    overflow: hidden;
+    position: relative;
+}
+
+@media (max-width: 1366px) {
+    .hero-image-process {
+        background-position: -10vw 0;
+        background-size: 120vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-image-process {
+        background-position: -30vw 0;
+        background-size: 160vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-image-process {
+        height: 36rem;
+        min-height: 36rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-image-process {
+        background-position: -50vw 0;
+        background-size: 200vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .hero-image-process {
+        background-position: -70vw 0;
+        background-size: 240vw;
+    }
+}

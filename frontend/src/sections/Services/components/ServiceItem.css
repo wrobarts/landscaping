@@ -1,0 +1,38 @@
+.service-item {
+    position: relative;
+    background-color: #33333380;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+}
+
+.service-item-title {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.service-item-description {
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+.service-item-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #171717;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--text-main);
+}
+
+.service-item-button:hover {
+    background-color: #333;
+}

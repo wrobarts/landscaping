@@ -1,0 +1,109 @@
+.hero-overlay {
+    width: 100vw;
+    height: calc(100vw * (2448 / 3657));
+    max-height: 100vh;
+    background-image: linear-gradient(to right, black, transparent);
+    overflow: hidden;
+}
+
+.hero-content {
+    margin-top: 12rem;
+    margin-left: 6rem;
+    width: 40rem;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.hero-subtitle {
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.hero-button {
+    margin-top: 2rem;
+}
+
+@media (max-height: 50rem) {
+    .hero-overlay {
+        max-height: none;
+    }
+}
+
+@media (max-width: 1366px) {
+    .hero-content {
+        margin-top: 12rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-content {
+        margin-top: 10rem;
+        width: 30rem;
+    }
+
+    .hero-title {
+        font-size: 2.4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.6rem;
+    }
+
+    .hero-button {
+        margin-top: .5rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .hero-overlay {
+        height: calc(140vw * (2448 / 3657));
+    }
+
+    .hero-content {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-overlay {
+        height: calc(180vw * (2448 / 3657));
+    }
+    .hero-content {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-content {
+        width: 20rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-content {
+        width: 20rem;
+    }
+
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}

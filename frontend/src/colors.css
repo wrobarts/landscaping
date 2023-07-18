@@ -1,0 +1,17 @@
+:root {
+    --text-link-header: #38B000;
+    --text-link-header-hover: #1E5E00;
+    --navbar-button: #FFDD00;
+    --navbar-button-hover: #B29A00;
+    --navbar-background: #E6FFDE;
+    --text-title-main: white;
+    --text-title-secondary: #333;
+    --text-title-accent: #CF9958;
+    --button-main: #9EF01A;
+    --button-main-hover: #6FAA11;
+    --text-main: white;
+    --text-secondary: #333;
+    --background-main: #333;
+    --icon-main: #9EF01A;
+    --icon-main-hover: #6FAA11;
+}

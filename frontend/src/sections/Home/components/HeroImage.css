@@ -1,0 +1,32 @@
+.hero-image {
+    background-image: url("../../../images/landscape_hero.jpeg");
+    width: 100%;
+    height: calc(100vw * (2448 / 3657));
+    max-height: 100vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media (max-height: 50rem) {
+    .hero-image {
+        max-height: none;
+    }
+}
+
+@media (max-width: 812px) {
+    .hero-image {
+        background-position: -20vw 0;
+        background-size: 140vw;
+        height: calc(140vw * (2448 / 3657));
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-image {
+        background-position: -40vw 0;
+        background-size: 180vw;
+        height: calc(180vw * (2448 / 3657));
+    }
+}
